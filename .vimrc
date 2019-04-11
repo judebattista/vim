@@ -8,6 +8,7 @@ call plug#begin('~vim/plugged')
 Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 set number
@@ -16,4 +17,5 @@ set shiftwidth=4
 set expandtab
 set termguicolors
 syntax on
-colorscheme seoul256
+colorscheme gruvbox
+set background=dark

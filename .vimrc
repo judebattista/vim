@@ -23,6 +23,12 @@ set background=dark
 syntax on
 filetype plugin indent on
 
+execute "digraphs xs" . 0x2093
+execute "digraphs SS" . 0x20D7
+execute "digraphs is" . 0x1d62
+execute "digraphs js" . 0x2c7c
+execute "digraphs ks" . 0x2096
+
 let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
 let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`
 let g:haskell_enable_arrowsyntax = 1      " to enable highlighting of `proc`

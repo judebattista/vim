@@ -25,6 +25,7 @@ filetype plugin indent on
 
 execute "digraphs xs" . 0x2093
 execute "digraphs SS" . 0x20D7
+execute "digraphs DD" . 0x0302
 execute "digraphs is" . 0x1d62
 execute "digraphs js" . 0x2c7c
 execute "digraphs ks" . 0x2096

@@ -30,8 +30,9 @@ execute "digraphs is" . 0x1d62
 execute "digraphs js" . 0x2c7c
 execute "digraphs ks" . 0x2096
 execute "digraphs as" . 0x2090
-execute "digraphs bs" . 0x1d47
-execute "digraphs cs" . 0x1d9c
+execute "digraphs bS" . 0x1d47
+execute "digraphs cS" . 0x1d9c
+execute "digraphs ns" . 0x2099
 
 let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
 let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`

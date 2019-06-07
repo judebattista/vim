@@ -1,4 +1,4 @@
-if empty(glob('~/.vim/autoload/plug.vim'))
+ empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
@@ -33,6 +33,8 @@ execute "digraphs as" . 0x2090
 execute "digraphs bS" . 0x1d47
 execute "digraphs cS" . 0x1d9c
 execute "digraphs ns" . 0x2099
+execute "digraphs ``" . 0x0303
+
 
 let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
 let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`

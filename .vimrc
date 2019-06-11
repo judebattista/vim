@@ -12,6 +12,7 @@ Plug 'neovimhaskell/haskell-vim', {'for': ['hs'] }
 Plug 'morhetz/gruvbox'
 call plug#end()
 
+set nomodeline
 set number
 set tabstop=4
 set shiftwidth=4
